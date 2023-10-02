@@ -35,7 +35,7 @@ function adicionarInstrumento(req, res) {
     }
 }
 
-function removeInstrumento(req, res) {
+function removerInstrumento(req, res) {
     const { instrumento, quantidade } = req.query;
 
     const instrumentoExistente = instrumentos.find((item) => item.instrumento === instrumento);
@@ -57,7 +57,7 @@ function removeInstrumento(req, res) {
     res.json({ mensagem: `Quantidade ${quantidade} do instrumento ${instrumento} removida com sucesso` });
 }
 
-function apagaInstrumento(req, res) {
+function apagarInstrumento(req, res) {
     const { instrumento } = req.query;
 
     const instrumentoExistente = instrumentos.find((item) => item.instrumento === instrumento);
@@ -74,6 +74,6 @@ function apagaInstrumento(req, res) {
 module.exports = {
     listaEstoque,
     adicionarInstrumento,
-    removeInstrumento,
-    apagaInstrumento,
+    removerInstrumento,
+    apagarInstrumento,
 }

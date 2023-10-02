@@ -4,16 +4,16 @@ const rotas = express();
 const {
     listaEstoque,
     adicionarInstrumento,
-    removeInstrumento,
-    apagaInstrumento } = require('./controladores/controladores');
+    removerInstrumento,
+    apagarInstrumento } = require('./controladores/controladores');
 
 rotas.get('/estoque', listaEstoque);
 
 rotas.post('/estoque/adicionar', adicionarInstrumento);
 
-rotas.put('/estoque/remover', removeInstrumento);
+rotas.put('/estoque/remover', removerInstrumento);
 
-rotas.delete('/estoque/apagar', apagaInstrumento);
+rotas.delete('/estoque/apagar', apagarInstrumento);
 
 module.exports = {
     rotas,
