@@ -14,29 +14,29 @@ Nessa API REST você encontrará 4 rotas básicas:
 #
 #### Para utilizar a API é muito simples: 
 
-- Listando instrumentos do estoque:
+- **Listando instrumentos do estoque:**
 Aqui é onde listamos todos os intrumentos existentes em nosso estoque. Podemos fazer isso da seguinte forma:
 
 [![S6bRs.gif](https://s6.gifyu.com/images/S6bRs.gif)](https://gifyu.com/image/S6bRs)
 
 #
 
-- Adicionando instrumentos:
-Já nessa rota, podemos adicionar novos instrumentos, sendo que, caso o instrumento já exista, é acrescentado a quantidade informada correta ao estoque.
+- **Adicionando instrumentos:**
+Já nessa rota, podemos adicionar novos instrumentos, sendo que, caso o instrumento já exista, é acrescentado a quantidade informada correta ao estoque. Segue o exemplo de como isso pode ser feito:
 
 [![S6bRT.gif](https://s6.gifyu.com/images/S6bRT.gif)](https://gifyu.com/image/S6bRT)
 
 #
 
-- Removendo instrumentos:
-Nessa rota, é removida a quantidade de instrumentos que foi passada no parâmetro, sendo assim, podemos utilizar essa rota quando um instrumento for vendido.
+- **Removendo instrumentos:**
+Nessa rota, é removida a quantidade de instrumentos que foi passada no parâmetro, sendo assim, essa rota pode ser muito útil para retirar do estoque intrumentos vendidos. Exemplo:
 
 [![S6bRu.gif](https://s6.gifyu.com/images/S6bRu.gif)](https://gifyu.com/image/S6bRu)
 
 #
 
-- Excluindo instrumentos:
-Aqui excluímos os instrumentos permanentemente. Seria interessante caso nossa loja não forcessece mais algum instrumento, o que possibilitaria a exclusão do mesmo do estoque.
+- **Excluindo instrumentos:**
+Aqui excluímos os instrumentos permanentemente. Essa rota seria útil caso a loja não forcessece mais algum instrumento, o que possibilitaria a exclusão do mesmo do estoque. Isso pode ser feito da seguinte maneira:
 
 [![S6bRW.gif](https://s6.gifyu.com/images/S6bRW.gif)](https://gifyu.com/image/S6bRW)
 
