@@ -2,7 +2,7 @@
 ![](https://68.media.tumblr.com/e5da5ca31ca2d1775c84b149e8543fb3/tumblr_oaku5s68Qn1qf4kz5o1_1280.gif)
 
 
-## Demonstração
+## Descrição do projeto
 
 Nessa API REST você encontrará 4 rotas básicas:
 
