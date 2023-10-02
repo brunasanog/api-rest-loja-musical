@@ -60,16 +60,17 @@ function removerInstrumento(req, res) {
 function apagarInstrumento(req, res) {
     const { instrumento } = req.query;
 
-    const instrumentoExistente = instrumentos.find((item) => item.instrumento === instrumento);
+    const index = instrumentos.findIndex((item) => item.instrumento === instrumento);
 
-    if (!instrumentoExistente) {
+    if (index === -1) {
         return res.status(404).json({ mensagem: "Instrumento não encontrado" });
     }
 
-    instrumentos.splice(instrumentoExistente, 1);
+    instrumentos.splice(index, 1);
 
     res.json({ mensagem: `Instrumento ${instrumento} removido com sucesso` });
 }
+
 
 module.exports = {
     listaEstoque,
