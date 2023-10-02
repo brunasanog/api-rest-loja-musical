@@ -1,1 +1,62 @@
-# api-rest-loja-musical
+
+![](https://68.media.tumblr.com/e5da5ca31ca2d1775c84b149e8543fb3/tumblr_oaku5s68Qn1qf4kz5o1_1280.gif)
+
+
+## Demonstração
+
+Nessa API REST você encontrará 4 rotas básicas:
+
+- Na primeira você conseguirá acessar todos os instrumentos disponíveis em estoque.
+- Na segunda você conseguirá adicionar um instrumento novo ao estoque.
+- Na terceira você conseguirá remover um instrumento do estoque.
+- E por fim, na quarta rota você conseguirá excluir um instrumento do estoque.
+
+#
+#### Para utilizar a API é muito simples: 
+
+- Listando instrumentos do estoque:
+Aqui é onde listamos todos os intrumentos existentes em nosso estoque. Podemos fazer isso da seguinte forma:
+
+[![S6bRs.gif](https://s6.gifyu.com/images/S6bRs.gif)](https://gifyu.com/image/S6bRs)
+
+#
+
+- Adicionando instrumentos:
+Já nessa rota, podemos adicionar novos instrumentos, sendo que, caso o instrumento já exista, é acrescentado a quantidade informada correta ao estoque.
+
+[![S6bRT.gif](https://s6.gifyu.com/images/S6bRT.gif)](https://gifyu.com/image/S6bRT)
+
+#
+
+- Removendo instrumentos:
+Nessa rota, é removida a quantidade de instrumentos que foi passada no parâmetro, sendo assim, podemos utilizar essa rota quando um instrumento for vendido.
+
+[![S6bRu.gif](https://s6.gifyu.com/images/S6bRu.gif)](https://gifyu.com/image/S6bRu)
+
+#
+
+- Excluindo instrumentos:
+Aqui excluímos os instrumentos permanentemente. Seria interessante caso nossa loja não forcessece mais algum instrumento, o que possibilitaria a exclusão do mesmo do estoque.
+
+[![S6bRW.gif](https://s6.gifyu.com/images/S6bRW.gif)](https://gifyu.com/image/S6bRW)
+
+
+
+
+## Funcionalidades
+
+- Listar estoque
+- Adicionar instrumento ao estoque
+- Remover instrumento do estoque
+- Deletar instrumento
+
+## Stack utilizada
+
+**Back-end:** Node, Express, JavaScript
+
+
+## Autores
+
+- [@brunasanog](https://www.github.com/brunasanog)
+
+
