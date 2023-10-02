@@ -29,7 +29,7 @@ Já nessa rota, podemos adicionar novos instrumentos, sendo que, caso o instrume
 #
 
 - **Removendo instrumentos:**
-Nessa rota, é removida a quantidade de instrumentos que foi passada no parâmetro, sendo assim, essa rota pode ser muito útil para retirar do estoque intrumentos vendidos. Exemplo:
+Nessa rota, é removida a quantidade de instrumentos que foi passada como parâmetro, sendo assim, essa rota pode ser muito útil para retirar do estoque instrumentos vendidos. Exemplo:
 
 [![S6bRu.gif](https://s6.gifyu.com/images/S6bRu.gif)](https://gifyu.com/image/S6bRu)
 
