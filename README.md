@@ -15,7 +15,7 @@ Nessa API REST você encontrará 4 rotas básicas:
 #### Para utilizar a API é muito simples: 
 
 - **Listando instrumentos do estoque:**
-Aqui é onde listamos todos os intrumentos existentes em nosso estoque. Podemos fazer isso da seguinte forma:
+Aqui é onde listamos todos os intrumentos existentes em nosso estoque. Podemos fazer isso da seguinte forma através do programa **insomnia**:
 
 [![S6bRs.gif](https://s6.gifyu.com/images/S6bRs.gif)](https://gifyu.com/image/S6bRs)
 
