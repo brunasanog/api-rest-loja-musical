@@ -24,7 +24,7 @@ Aqui é onde listamos todos os intrumentos existentes em nosso estoque. Podemos 
 - **Adicionando instrumentos:**
 Já nessa rota, podemos adicionar novos instrumentos, sendo que, caso o instrumento já exista, a quantidade informada será acrescentada corretamente ao estoque. Segue o exemplo de como isso pode ser feito:
 
-[![S6bRT.gif](https://s6.gifyu.com/images/S6bRT.gif)](https://gifyu.com/image/S6bRT)
+[![S6pjo.gif](https://s6.gifyu.com/images/S6pjo.gif)](https://gifyu.com/image/S6pjo)
 
 #
 
